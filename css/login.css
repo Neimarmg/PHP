@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+}
+
+body{
+	font-size:18px;
+	font-weight:bolder;
+	color:blue
+}
+
+main {
+	width:940px;
+	height:1300px;
+	margin:auto;
+}
+
+section#login {
+	width:40%;
+	height:180px; 
+	float:left;
+	margin-left:30%;
+	margin-top: 20%;
+}
+
+.label{
+	margin:10% 20% 20% 0%;
+}
+
+input{	
+	margin:0% 0% 0% 0%;
+	Width:98%;
+	height:38px;
+}
+
+.button{
+	margin:10% 0% 0% 0%;
+	Width:98%;
+
+}
+

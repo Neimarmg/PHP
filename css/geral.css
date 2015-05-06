@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: #000;
+	background-color: #EAEAAE;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #CFB53B ;
+}
+
+input{	
+	Width:85%;
+	height:40px;
+	border:none;
+	border-redius:5px;
+	background-color:#EEE;
+}
+
+select{	
+	Width:85%;
+	height:40px;
+	border:none;
+	border-redius:5px;
+	background-color:#EEE;
+}
+
+.button{
+	Width:21%;
+	height:70px;
+	font-weight:bolder;
+	font-size:20px
+}
+
+footer p{
+	color: #3366FF;
+	text-align: center;
+	font-size: 12px;
+}

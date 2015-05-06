@@ -1,0 +1,185 @@
+* {
+	margin: 0px;
+}
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: #000;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #FFF;
+}
+	
+	header .principal {
+		width: 940px;
+		height: 100%;
+		margin: auto;
+		background-color: #CFB53B;
+		border-radius: 5px 5px 5px 5px;
+	}
+
+		header .principal h1 {
+			color: #000;
+			font-size: 18px;
+			padding-left: 15px;
+			padding-top: 20px;
+			float: left;
+		}
+		header .principal h2 {
+			color: #000;
+			font-size: 12px;
+			padding-left:5px;
+			padding-top: 40px;
+			font-family: monospace;
+			float: left;
+		}
+
+		header .principal header nav {
+			float: left;
+		}
+
+			header nav ul li {
+				display: inline-block;
+				width: 150px;
+				padding-left: 8px;
+				text-align: center;
+				padding-top: 50px;
+			}
+				
+				header nav ul li a {
+					color: #007FFF;
+					text-decoration: none;
+					font-size: 10px;
+					font-weight: bold;				
+					display: block;
+					width: 100%;
+					height: 20%;
+					padding-top: 5px;
+					border-radius: 5px 5px 5px 5px;
+					background-color: #EEDD82;
+				}			
+				header nav ul li a:hover {								
+					background-color: #FFFFE0;
+				}
+				header nav ul li a:active {								
+					background-color: #B5B5B5;
+				}
+
+main {
+	width: 940px;
+	height: 1300px;
+	margin: auto;
+}
+	main p{
+		font-size: 12px;
+	}
+	section#global {
+		width: 100%;
+		height: 600px; 
+		background-color: #F5F5DC;
+	}
+		section#global article {
+			width: 100%;
+			height: 35px;
+			float: left;
+			padding-top: 35px;
+		}
+			section#global .imagemPrincipal figure{ 
+				
+			}
+			section#global .dados form { 
+				width: 100%;
+				font-family: arial;
+				font-size: 12px; 
+			}
+			section#global .dados input { 
+				margin-bottom: 10px;
+				margin-left: 420px; 
+				border: 1px solid #999;
+				border-radius: 5px 5px 5px 5px;
+		    }
+			section#global .dados input, label {
+				display: block;
+				 margin-left: 400px; 
+			}
+			section#global .dados label {
+				margin-top: 5px;
+				margin-left: 400px; 
+			}
+			section#global .dados select {
+				display: block;
+				margin-top: 10px;
+				margin-left: 400px; 
+			}
+			section#global .dados .botao{
+				width: 100px; 
+				margin-top: 10px;
+				margin-left: 420px; 
+		    }
+			section#global article h1 {
+				padding: 20px 150px;
+				text-align: center;
+				float: right;				
+			}	
+			section#global article p {
+				padding: 0px 150px;
+				color: #777;
+				text-align: center;
+				float: right;
+			}
+			section#global article span{
+				font-weight: normal;
+			}
+			section#global figure {
+				padding: 0px 0px 0px 80px;
+				color: #777;
+				float: left;
+				margin-left: 150px;
+			}
+			section#global article h1.sucesso {			
+				margin-right: 200px;
+				margin-top: 50px;
+				color: #00009C;			
+			}	
+			section#global table .center{
+				margin-left:50px; 
+    			margin-right: auto;
+    			font-size: 12px;	
+			} 
+			section#global table{
+				margin-left:50px; 
+    			margin-right: auto;
+    			font-size: 12px;	
+			} 
+		section#login {
+		width: 100%;
+		height: 30px; 
+		background-color: #DBDB70;
+		}
+		section#login article {
+			width: 100%;
+			height: 30px;
+			float: left;
+			padding-top: 10px;
+			font-size: 12px;
+			font-family: arial;
+
+		}
+	section#artigos {
+		width: 100%;
+		height: 670px;
+		background-color: #DBDB70;
+	}
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #CFB53B ;
+}
+footer p{
+		color: #3366FF;
+		text-align: center;
+		font-size: 12px;
+}
