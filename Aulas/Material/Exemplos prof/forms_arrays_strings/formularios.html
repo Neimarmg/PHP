@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Formuláios</title>
+		
+		<style type="text/css">
+			@import "formularios.css";
+		</style>
+
+	</head>
+	<body>
+	
+		<form name="form1" action="formularios.php" method="post">
+			
+			<fieldset>
+				<legend>Dados Pessoais</legend>
+				
+				<!-- label: for se refere ao id do input -->
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome" class="texto" /><br />
+				
+				<label for="senha">Senha:</label>
+				<input type="password" name="senha" id="senha" class="texto" /><br />
+					
+			</fieldset>	
+			
+			<fieldset>
+				<legend>Dados Adicionais</legend>
+				
+				<label>Sexo:</label>
+				<!-- para radio: sempre nomes iguais, ids diferentes -->
+				<input type="radio" name="sexo" id="sexof" value="F"  class="normal"/>
+				<label for="sexof" class="normal">Feminino</label>
+				<input type="radio" name="sexo" id="sexom" value="M"  class="normal"/>
+				<label for="sexom" class="normal">Masculino</label><br /><br />
+				
+				<label>Turnos: </label>
+				<!-- para checkbox: nomes iguais com [], ids diferentes -->
+				<input type="checkbox" name="turno[]" id="turnom" value="M" class="normal" />
+				<label for="turnom" class="normal">Manhã</label>
+				<input type="checkbox" name="turno[]" id="turnot" value="T" class="normal"/>
+				<label for="turnot" class="normal">Tarde</label>
+				<input type="checkbox" name="turno[]" id="turnon" value="N" class="normal"/>
+				<label for="turnon" class="normal">Noite</label><br /><br/>
+				
+				<label for="estado">Estado:</label>
+				<select name="estado" id="estado">
+					<option value="0">Selecione...</option>	
+					<option value="RS">Rio Grande do Sul</option>	
+					<option value="SC">Santa Catarina</option>	
+					<option value="PR">Paraná</option>	
+				</select><br /><br/>
+				
+				<label for="cidade">Cidade:</label>
+				<select name="cidade" id="cidade">
+					<option value="0">Selecione...</option>
+					<optgroup label="Rio Grande do Sul">
+						<option value="poa">Porto Alegre</option>
+						<option value="canoas">Canoas</option>
+					</optgroup>
+					<optgroup label="Santa Catarina">
+						<option value="florianopolis">Florian?olis</option>
+						<option value="blumenau">Blumenau</option>
+					</optgroup>
+				</select><br /><br/>
+				
+				<label for="descricao">Descrição:</label>
+				<textarea name="descricao" id="descricao" rows="5" cols="50">Digite aqui...</textarea>
+				
+			</fieldset>		
+		
+			<input type="button" name="acao" value="Registrar" class="botao" />
+			<input type="reset" name="acao" value="Limpar" class="botao" />
+			<input type="submit" name="acao" value="Enviar" class="botao" />
+				
+		</form>
+	
+	
+	</body>
+</html>

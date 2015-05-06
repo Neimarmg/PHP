@@ -1,0 +1,98 @@
+body {
+	background-image: url(../imagens/fc2.jpg);
+	background-repeat: repeat-x;  
+	background-attachment: fixed;
+}
+
+hr{
+	width:5px;
+	height:5px;
+	color:#7CFC00;
+}
+
+img{
+	width: 20%;
+	height:5%;
+	margin: 1px 1px;
+}
+
+h1{
+	color:#7CFC00;
+	font-size: 40px; 
+	margin-right: 20px;
+	line-height: 20px;
+	text-align:left;
+	font-family :impact, arial, verdana, sans-serif;
+}
+
+h2{
+	color:#00BFFF;
+	font-size:25px; 
+	text-align:left;
+	margin-right:20px;
+	line-height:50px;
+	font-family:impact, arial, verdana, sans-serif;
+	
+}
+
+a {
+	text-align:center;
+	color:#00FFFF;
+	margin-right:40px;
+	line-height:100px;	
+	font-family:arial, verdana, sans-serif;
+	font-size:20px;
+}
+
+ul li {
+	list-style-image: url(../imagens/marcacao.png);
+}
+
+ol li {
+	list-style-type: katakana;
+}
+
+.importante {
+	font-size: 20px;
+	color: #00FF7F;
+	text-align:left; 
+	line-height:30px; 
+	text-indent:80px;
+
+}
+
+ul li {
+	color:#00FFFF;
+	margin-right:20px;
+	line-height:20px;
+	font-family:arial, verdana, sans-serif;
+	font-size:15px;
+	text-decoration: none;
+}
+
+tr td{
+	color: #00FFFF;
+	line-height: 30px; 
+	text-indent: 100px;	
+}
+
+td{
+	color: #00FFFF;
+	font-size: 15px;
+	font-family:arial, verdana, sans-serif;
+}
+
+fieldset{
+	color: #00FFFF;
+	font-size: 15px;
+	font-family:arial, verdana, sans-serif;
+ 
+}
+
+textarea{
+	color: #00FFFF;
+	margin-right:10px;
+	line-height:10px;
+}
+
+

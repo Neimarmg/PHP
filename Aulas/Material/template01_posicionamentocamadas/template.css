@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* # = para IDs */
+#cabecalho {
+	border: 1px solid #F60;
+	height: 50px;
+	width: 100%;
+}
+
+#principal {
+	border: 1px solid #900;
+	width: 960px;
+	height: 810px;
+	/* para centralizar uma div na horizontal */
+	margin: auto;
+}
+
+	#principal #titulo {
+		border: 1px solid #060;
+		width: 100%;
+		height: 80px;
+	} 
+	
+	#principal #servicos {
+		border: 1px solid #060;	
+		width: 100%;
+		height: 200px;
+	}
+		
+		/* . = indica que é um class */
+		#principal #servicos .item {
+			border: 1px solid #606;
+			width: 236px;
+			height: 190px;
+			float: left;
+		}
+	
+	#principal #imagens {
+		border: 1px solid #060;
+		width: 100%;
+		height: 520px;
+	}
+		
+		#principal #imagens #texto {
+			border: 1px solid #09C;
+			height: 40px;
+			width: 100%;
+		}
+		
+		#principal #imagens #imgprincipal {
+			border: 1px solid #03C;	
+			width: 656px;
+			height: 480px;
+			float: left;
+		}
+
+		#principal #imagens #imgsecundaria {
+			border: 1px solid #03C;	
+			width: 290px;
+			height: 480px;
+			float: right;
+		}
+		
+#rodape {
+	border: 1px solid #F60;
+	width: 100%;
+	height: 30px;
+}

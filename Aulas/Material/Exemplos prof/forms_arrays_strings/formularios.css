@@ -1,0 +1,54 @@
+
+body { 
+	font-family: arial, verdana, sans-serif; 
+	font-size: 14px;
+}
+
+fieldset { 
+	width: 650px; 
+	padding: 40px; 
+	border: 1px solid #c0c0c0; 
+	margin-bottom: 20px; 
+}
+
+legend { 
+	font-size: 16px; 
+	font-weight: bold; 
+	color: #666666; 
+}
+
+label { 
+	display: block; 
+	width: 100px; 
+	float: left; 
+	font-weight: bold; 
+}
+
+label.normal { 
+	float: left; 
+	font-weight: normal; 
+}
+
+input, textarea { 
+	display: block; 
+}
+
+input.texto { 
+	width: 300px;
+}
+
+input.normal { 
+	float: left; 
+	font-weight: normal; 
+	width: 10px;
+}
+
+input.botao { 
+	width: 100px; 
+	background-color: #ccc; 
+	color: #423; 
+	font-weight: bold; 
+	font-size: 14px; 
+	float: left; 
+	margin-left:  20px;
+}

@@ -1,0 +1,72 @@
+
+body {
+	background-color: #666699;
+	background-image: url(../imagens/bg.jpeg);
+	background-repeat: repeat-y; 
+	/* repeat (padrão), repeat-x, repeat-y, no-repeat */ 
+	background-position: right; 
+	/* left (padrão) right center top (padrão) bottom */
+	background-attachment: fixed;
+
+}
+
+img {
+	border-bottom: 8px dotted #CC99CC;
+	/* largura estilo cor */
+	margin: 20px 30px;
+	/* top/bottom right/left*/
+	/* margin e padding sempre começando 
+	   do top e sentido horário */
+}
+
+p {
+	width: 80%;
+	font-family: arial, verdana, sans-serif;
+	/* nomes compostos devem usar aspas duplas
+	   ex.: "Times New Roman", "Comic Sans" */
+	font-size: 14px; 
+}
+
+/* CSS3 
+   utilização de fontes que estão no servidor 
+   e não no cliente */
+@font-face {
+	font-family: disko;
+	src: url(../fontes/disko.ttf);
+}
+
+h1 {
+	font: 50px disko; 
+	/* realiza a chamada a fonte que foi criada */
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* estilo composto: para apenas os li 
+que estão dentro de ul */
+ul li {
+	list-style-image: url(../imagens/star.png);
+}
+
+ol li {
+	list-style-type: katakana;
+}
+
+.destaque {
+	font-size: 18px;
+	color: #fff;
+	text-align: center; 
+	/* left (padrão) right center justify */
+	letter-spacing: 5px;
+	word-spacing: 20px;
+	line-height: 30px; 
+	text-indent: 80px;
+	text-transform: capitalize;
+	/* none (padrão) lowercase uppercase */
+}
+
+
+
+table{
+	bolder=5;
+}

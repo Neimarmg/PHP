@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML - Formulários</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+
+	<form name="fcad" action="" method="post">
+		
+		<fieldset>
+			<legend>Dados de autenticação</legend>
+			
+			<!-- atributo for sempre associado ao id do elemento de formulário -->
+			<label for="nome">Nome completo:</label>
+			<input type="text" name="nome" id="nome"/>
+			<br/>
+
+			<label for="senha">Senha:</label>
+			<input type="password" name="senha" id="senha"/>
+			<br/>
+
+		</fieldset>
+
+		<!-- sempre devem ter o mesmo nome, porém ids diferentes -->
+		<label>Sexo:</label>
+		<input type="radio" name="sexo" id="sexof" value="F"/>
+		<label for="sexof">Feminino</label>
+		<input type="radio" name="sexo" id="sexom" value="M" checked />
+		<label for="sexom">Masculino</label>
+		<br/>
+
+		<label>Turno:</label>
+		<input type="checkbox" name="turno" id="turnom" value="M" />
+		<label for="turnom">Manhã</label>
+		<input type="checkbox" name="turno" id="turnot" value="T" />
+		<label for="turnot">Tarde</label>
+		<input type="checkbox" name="turno" id="turnon" value="N" checked />
+		<label for="turnon">Noite</label>
+		<br/>
+
+		<label for="arquivo">Arquivo:</label>
+		<input type="file" name="arquivo" id="arquivo" accept="image/*" /><br/>
+
+		<label for="estado">Estado:</label>
+		<select name="estado" id="estado">
+			<option value="0">Selecione...</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="PR">Paraná</option>
+			<option value="SP" selected>São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+		</select><br/>	
+
+		<label for="estadon">Estado:</label>
+		<select name="estado" id="estadon">
+			<option value="0">Selecione...</option>
+			<optgroup label="Região Sul">
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="SC">Santa Catarina</option>
+				<option value="PR">Paraná</option>
+			</optgroup>
+			<optgroup label="Região Sudeste">
+				<option value="SP" selected>São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+			</optgroup>
+		</select><br/>
+
+		<label for="estadom">Estado:</label>
+		<select name="estado" id="estadom" multiple>
+			<option value="0">Selecione...</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="PR">Paraná</option>
+			<option value="SP">São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+		</select><br/>		
+
+		<label for="descricao">Descrição:</label>
+		<textarea name="descricao" id="descricao" cols="40" rows="5" maxlength="100">Olá! Tudo bem?</textarea>
+
+		<input type="reset" name="acao" id="acaor" value="Limpando!"/>
+
+		<input type="button" name="acao" id="acaob" value="Salvar"/>
+
+		<input type="image" src="imagens/botao.png" alt="botão de ação" name="acao" id="acaoi"/>
+
+		<input type="submit" name="acao" id="acaos" value="Vai planeta!"/>
+
+
+	</form>
+	
+
+	</body>
+</html>

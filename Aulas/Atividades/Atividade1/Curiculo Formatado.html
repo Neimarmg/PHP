@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title> HTML - ATIVIDADE PRÁTICA CURRÍCULO WEB </title>
+		<meta charset="UTF-8" />
+	</head>
+	
+	<style type="text/css">
+		@import "Estilos/curiculoCss.css";
+	</style>
+		
+	<body>
+
+<!-- Grupo: Neimar Moises Gobbi, Aurélio Santana -->
+
+	<!--  -->
+		<h1> CURRÍCULO WEB </h1> 
+			<b>
+				<a href="#anc1"> Identificação</a> 
+				<a href="#anc2"> Apresentação </a> 
+				<a href="#anc3"> Formação </a> 
+				<a href="#anc4"> Experiência </a> 
+				<a href="#anc5"> Conhecimentos</a> 
+				<a href="#anc6"> Contato </a>
+			</b>
+		<br/>
+		<br/>
+		
+		<img src= "http://4.bp.blogspot.com/-FtaH-aPgASI/UjJahGar5rI/AAAAAAAAAss/AhkGD2lhRWs/s1600/bonecos-do-ben-10.jpg"
+			width="130px";
+			height="130px";
+			alt= "Imgem não carregada";
+		/>
+		
+		<br/>
+		<br/>
+		<h2 id="anc1"> Identificação </h2>
+		<HR SIZE=1/>
+		<ul> 
+				<li> <b>Nome: José da Silva</b> </li>
+				<li> Endereço: Rua Calitos saltão, 100/01 </li>
+				<li> Contato:(51)3356-8941 (51)9945-1254 </li>
+				<li> e-mail: jc@htmail.com </li>
+		</ul>
+		
+		<h2 id= "anc2"> Apresentação </h2>
+		<HR SIZE=1>
+			<p class="importante"> 
+				Atuo na aréa de desenho de personagens animados infatins a dez anos, em estudios do ramo    
+			</p>
+		
+		<h2 id= "anc3">Formação</h2>
+		<HR SIZE=1>
+			<ul>
+				<li> Desenho artítico pela UFRGS 2008 </li>
+				<li> Artes plásticas USP 2008 </li>
+			</ul>
+		<h2 id= "anc4">Experiência</h2>
+		<HR SIZE=1>
+			<ul>
+				<li> Desenhista na JVB Brasil 2008 as 2010/1 </li>
+				<li> Animador na Casa do boneco 2010/2 a 2013 </li>
+				<li> Autônomo atualmente </li>					
+			</ul>
+		
+		<h2 id= "anc5"> Conhecimentos </h2>
+		<HR SIZE=1>
+		<table border="1">
+			<tr>
+				<td> Assunto </td>
+				<td> Grau de conhecimento </td>
+				<td> Experiencia da area </td>
+			</tr>
+			<tr>
+				<td> Inglês </td>
+				<td> Básico </td>
+				<td> Academica </td>				
+			</tr>
+			<tr>
+				<td> Epanhol </td>
+				<td> Básico </td>
+				<td> Academica </td>
+			</tr>			
+		</table>
+		<h2 id= "anc6"> Contatos </h2>
+		
+		<fieldset>
+			<legend> Entre em contato </legend>   
+			<label for="name"> Nome: </label>
+			<input type="text" name="nome" id="name"/>
+			<br/>
+			<br/>
+			<label for= "name"> Estado </label> 
+				<select name="name">
+					<option value= "3"> selecione </option>
+					<option value= "1"> AP </option>
+					<option value= "2"> RS </option>
+					<option value= "3"> TO </option>
+					<option value= "3"> PA </option>
+					<option value= "3"> Encatado </option>
+				</select>
+			<br/>
+			<h5> Contato </h5>
+			<input name= "sugestao" type="radio" value="1" /> Sugestão
+			<input name= "Comentario" type="radio" value="1" /> Comentário
+			<input name= "vagaEmprego" type="radio" value="1" /> Vaga de emprego
+			<br/>	
+			<br/>
+			<br/>			
+			<label for="Obs"> Mensagem </label>
+			<br/>
+			<br/>
+			<textarea name= "Obs" id="Obs" cols="40" rows="10" maxlength="100">"Digite aqui!"</textarea>
+			<br/>
+			<br/>
+			<input name= "action" type="button" id="sair" value="Enviar"/>
+		</fieldset>
+	</body>
+</html>

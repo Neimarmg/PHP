@@ -1,0 +1,34 @@
+
+body{
+	background:#F5DEB3;
+	font-family:arial.verdana;
+}
+
+
+}main {
+	width: 10px;
+	height: 4px;
+	background-color: #A87;
+}
+
+h1 {
+	color: #0000FF;
+	font-size: 72px;
+	text-align: center;
+	padding-top: 35px;
+}
+
+	/* estrutura opcional - boas práticas */
+	section#destaques {
+		padding:10px;
+		width: 98%;
+		height: 625px;
+		background-color: #503; 
+	}
+	
+	/*
+	section#imagens {
+		width: 100%;
+		height: 825px;
+		background-color: #575;
+	}*/
