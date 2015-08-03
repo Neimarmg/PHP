@@ -1,8 +1,8 @@
 
 <?php 
-	include_once '../App/conexao.php';		
-	include_once '../App/Alertas.php';
-	include_once '../App/utilitario.php';
+	include_once '../AppMigracao/conexao.php';	
+	include_once '../AppMigracao/Alertas.php';
+	include_once '../AppMigracao/utilitario.php';
 
 class  migrabd{
 	

@@ -1,13 +1,13 @@
 
 <?php
-	include_once '../App/conexao.php';
+	include_once '../AppMigracao/conexao.php';
 ?>
 
 <?php
 	/*Definição da parametrização das tabelas para migração de dados */
 
-	include_once '../Testes/migracao.php';
-	include_once '../Testes/utilitario.php';
+	include_once '../AppMigracao/migracao.php';
+	include_once '../AppMigracao/utilitario.php';
 	
 	
 	$sqlOrigem ="SELECT DISTINCT cor FROM dados_antigos";
