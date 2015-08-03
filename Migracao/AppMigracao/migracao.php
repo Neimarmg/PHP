@@ -6,7 +6,7 @@
 
 class  migrabd{
 	
-	/*Metodo de execução de inserts*/
+	/*Método de execução de inserts*/
 	public static function InsereRegistros($sql, $tab) {		
 		
 		$result = mysql_query($sql);		
@@ -42,7 +42,7 @@ class  migrabd{
 	}
 
 	
-	/*Valida resgistros após a insersão de na tabela destino*/
+	/*Valida resgistros após a insersão na tabela destino*/
 	public static function validaInsersao($tabOrigen, $tabDestino, $tab) {
 		if (mysql_num_rows(mysql_query($tabOrigen)) != mysql_num_rows(mysql_query($tabDestino))){
 			validadaDados::registroNaoInserido(false);
@@ -52,7 +52,7 @@ class  migrabd{
 	}
 	
 	
-	/*Inforama se os registos ja foram inseridos*/
+	/*Informa se os registos ja foram inseridos*/
 	public static function informaRegistroExistente($tab){
 		utilitario::msgAlerta(false, '--------------------------------------------');
 		utilitario::msgAlerta(false, 'Não foi possivel inserir registros na tabelas "'.$tab.'"');
@@ -60,7 +60,7 @@ class  migrabd{
 	}
 	
 	
-	/*Metodo de carregador parametros*/
+	/*Método de carregador parametros*/
 	public static function parametros($tabOrigen, $tabDestino, $tab) {		
 		validadaDados::resultQuery((mysql_num_rows(mysql_query($tabOrigen)) - mysql_num_rows(mysql_query($tabDestino))));
 		

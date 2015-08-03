@@ -1,4 +1,3 @@
-<meta charset="ISO-8859-1">
 <?php
 
 class validadaDados {
